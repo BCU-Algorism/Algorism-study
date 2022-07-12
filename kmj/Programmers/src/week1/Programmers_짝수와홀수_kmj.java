@@ -2,7 +2,7 @@ package week1;
 
 public class Programmers_Â¦¼ö¿ÍÈ¦¼ö_kmj {
 
-	public String main(int num) {
+	public String solution(int num) {
 				String answer = "";
 				if(num%2 == 0) {
 					answer = "Even";
@@ -11,4 +11,8 @@ public class Programmers_Â¦¼ö¿ÍÈ¦¼ö_kmj {
 				}
 				return answer;
 			}
+	public static void main(String[] args) {
+		Programmers_Â¦¼ö¿ÍÈ¦¼ö_kmj p = new Programmers_Â¦¼ö¿ÍÈ¦¼ö_kmj();
+		System.out.println(p.solution(10));
+		}
 	}
