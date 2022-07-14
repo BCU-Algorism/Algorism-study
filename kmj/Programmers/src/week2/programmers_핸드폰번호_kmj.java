@@ -20,7 +20,6 @@ public class programmers_핸드폰번호_kmj {
 		programmers_핸드폰번호_kmj p = new programmers_핸드폰번호_kmj();
 		String phone_number = "01031200011";
 		System.out.print(p.solution(phone_number));
-		String str = "민지야 미안해";
 		
 
 	}
