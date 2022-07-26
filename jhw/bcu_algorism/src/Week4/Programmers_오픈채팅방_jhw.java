@@ -33,8 +33,7 @@ public class Programmers_오픈채팅방_jhw {
         answer = new String[answerList.size()];
         for (int i = 0; i < answerList.size(); i++) {
             String[] split = answerList.get(i).split("님이");
-            String replace = answerList.get(i).replace(split[0], recordKeyValue.get(split[0]));
-            answer[i] = replace;
+            answer[i] = answerList.get(i).replace(split[0], recordKeyValue.get(split[0]));
         }
 
         return answer;
